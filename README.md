@@ -1,0 +1,2 @@
+# sports-club
+ This is a sports club website..The main purpose of our proj is is to give information about sports and get us more participation in sports events and league at national and international level’s. Sports Club is where you can register yourself to get training from professional trainers and coaches. It provides information regarding most popular sports, events and leagues. The technologies html,css,javascript for frontend and php for backend.

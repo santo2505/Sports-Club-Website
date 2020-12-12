@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+.grid-container
+{
+display:grid;
+grid-template-areas:
+'h1 h2 h3 h4'
+'h5 h5 h6 h6 ' ;
+grid-gap:none;
+   background-color:white;
+   padding: 5px;
+}
+.grid-container >div 
+{
+
+padding: 2px;
+font-size:3px;
+}
+.item1{ grid-area: h1; }
+.item2{ grid-area: h2; }
+.item3{ grid-area: h3; }
+.item4{ grid-area: h4; }
+.item5{ grid-area: h5; }
+</style>
+</head>
+<body>
+<div class="grid-container">
+<div class="item1"><img src="hockey.jpeg"  alt="hockey1" height="320" width="320" align="left" ></div>
+<div class="item2"><img src="hockey2.jpeg" alt="hockey2" height="330" width="330" align="left" ></div>
+<div class="item3"><img src="hockey3.jpg"  alt="hockey3" height="320" width="320" align="left" ></div>
+<div class="item4"><img src="hockey 4.jpeg" alt="hockey4" height="320" width="320" align="left" ></div>
+<div class="item5"><video controls height="400";width="360";><source src="hockeyv2.mp4"type="video/mp4"></video></div></div>
+</div>
+
+<a href="pics.html" id="new" class="btn">Back to Previous Page</a>
+</body>
+</html>
